@@ -6,6 +6,14 @@
     padding: 0;
     background-color: #24252A;
 }
+@bg:#2d2d37;
+
+.header, .intro {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
 
 li, a, button {
     font-family: "roboto", sans-serif;
@@ -56,5 +64,20 @@ li, a, button {
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgba(0, 136, 169, 0.6);
+}
+
+.intro {
+    height: 250px;
+    width: 525px;
+    position: fixed;
+    top: 55%;
+    left: 20%;
+    margin-top: -100px;
+    margin-left: 200px;
+    color: white;
+}
+
+.highlight {
+    color: #e31b6d;
 }

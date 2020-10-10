@@ -6,7 +6,6 @@
     padding: 0;
     background-color: #24252A;
 }
-@bg:#2d2d37;
 
 .header, .intro {
     width: 100%;
@@ -69,14 +68,16 @@ button:hover {
 
 .intro {
     height: 250px;
-    width: 525px;
+    width: 550px;
     position: fixed;
     top: 55%;
-    left: 20%;
+    left: 25%;
     margin-top: -100px;
     margin-left: 200px;
     color: white;
+    text-align: center;
 }
+
 
 .highlight {
     color: #e31b6d;

@@ -16,24 +16,30 @@
 </head>
 <body>
     <!-- HEADER -->
-    <div class="Header">
+    <div class="header">
         Hello, I'm <span id="highlight">Hussein Musawi</span>.
         <br>
         I'm a front-end web developer.
         <br>
-        <div class="landbutton">
-            <a class="btn" href="#middle-container">View my work</a>
+        <div class="btn" onclick="location.href='#projects'">
+            View my work
         </div>
     </div>
     <!-- Top Container -->
     <div class="top-container">
         <nav>
-            <ul>
+            <div class="link-wrap">
+                <div class="page-link-active" href="./index.html">Home</div>
+                <div class="page-link" href="#middle-container">About</div>
+                <div class="page-link" href="#projects">Portfolio</div>
+                <div class="page-link" href="#bottom-container">Contact</div>
+            </div>
+            <!-- <ul>
                 <li><a class="home" href="./index.html">Home</a></li>
                 <li><a href="#middle-container">About</a></li>
                 <li><a href="#projects">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+                <li><a href="#bottom-container">Contact</a></li>
+            </ul> -->
         </nav>
     <!-- Middle Container -->
         <div id="middle-container">
@@ -59,7 +65,8 @@
                     I am a front-end web developer based in Sydney Australia. I enojy coding projects and solving coding problems in my spare time but when i'm not coding I like to game and i'm thinking of making my own little Ios game. besides coding and gaming I do MMA. I started off just doing boxing but over the last 6 years i've transitioned into MMA. I love training and watching fights, I've been keeping up with all the ufc events and fighters it's something ive been passionate about ever since i started.
                 </div>
                 <img class="fight" src="./images/avatar.PNG" alt="Alex vs Oretga">
-            </div>
+        </div>
+        <div class="project-container">
     <!-- Projects -->
             <div id="projects">
                 <h1>Projects</h1>
@@ -87,9 +94,10 @@
                     <p>Memory game made with javascript</p>
                 </div>
             </div>
+            </div>
         </div>
     <!-- Bottom Container -->
-        <div class="bottom-container">
+        <div id="bottom-container">
             <div class="contact">
                 <h2>Contact Me</h2>
                 <i class="fa-solid fa-arrow-down"></i>

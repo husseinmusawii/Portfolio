@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 23%;
+  font-size: 32px;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+}
+
+#highlight {
+  color: #e31b6d;
+  line-height: 32px;
+}
+
+nav {
+  background-color: #1b242f;
+  height: 70px;
+  width: 100%;
+  text-align: left;
+  border-bottom: 3px solid #04c2c9;
+  top: 0%;
+  left: 0%;
+}
+
+li {
+  display: inline-block;
+  position: sticky;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 40px;
+  line-height: 65px;
+}
+
+li a:hover {
+  color: #e31b6d;
+}
+
+.home {
+  margin-left: 150px;
+}
+
+.btn {
+  border: 2px solid #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.landbutton {
+  margin: 0;
+}
+
+.btn:hover {
+  background: #04c2c9;
+  text-decoration: none;
+}
+
+#middle-container {
+  background-image: linear-gradient(-4deg, #b721ff 0%, #04c2c9 100%);
+}
+
+h1 {
+  text-align: center;
+  padding: 100px 0 50px;
+  text-decoration: underline;
+  color: #444649;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  height: 140px;
+}
+
+.skill-html {
+  display: inline;
+  position: relative;
+  left: 218px;
+  color: #414040;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skill-css {
+  display: inline;
+  position: relative;
+  bottom: 0px;
+  left: 475px;
+  color: #414040;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skill-javascript {
+  display: inline;
+  position: relative;
+  bottom: 0px;
+  left: 707px;
+  color: #414040;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skill-react {
+  display: inline;
+  position: relative;
+  bottom: 0px;
+  left: 920px;
+  color: #414040;
+  font-family: "Montserrat", sans-serif;
+}
+
+.profile {
+  height: 400px;
+}
+
+.selfie {
+  display: inline-block;
+  justify-content: left;
+  height: 300px;
+  padding-top: 100px;
+  padding-left: 140px;
+  margin: 0px;
+}
+
+.question {
+  padding-top: 10px;
+  padding-left: 180px;
+  color: #171717;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bio {
+  display: inline-block;
+  position: relative;
+  justify-content: right;
+  width: 700px;
+  left: 380px;
+  bottom: 260px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8rem;
+}
+
+.fight {
+  height: 260px;
+  display: inline-block;
+  position: relative;
+  justify-content: right;
+  left: 400px;
+  bottom: 210px;
+}
+
+.penguin {
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  justify-content: left;
+  left: 185px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.penguin-img {
+  height: 400px;
+  width: 500px;
+}
+
+.pikachu {
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  justify-content: right;
+  left: 275px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.pikachu-img {
+  height: 400px;
+  width: 500px;
+}
+
+.pacman {
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  justify-content: left;
+  left: 185px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.pacman-img {
+  height: 400px;
+  width: 500px;
+}
+
+.memory-game {
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  justify-content: left;
+  left: 275px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.memory-img {
+  height: 400px;
+  width: 500px;
+}
+
+.bottom-container {
+  text-align: center;
+  padding: 50px 0 20px;
+  background-image: linear-gradient(to top, #4642f9 0%, #b426ff 100%);
+  border-top: 3px solid #c250f6;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+  padding: 100px 0 50px;
+  text-decoration: underline;
+  color: white;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  line-height: 3rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.copyright {
+  padding: 20px 0;
+  color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
+}

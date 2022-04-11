@@ -35,6 +35,9 @@
 nav {
   background-color: #1b242f;
   border-bottom: 3px solid #04c2c9;
+  position: sticky;
+  top: 0;
+  z-index: 9;
 }
 
 .page-link,
@@ -44,6 +47,7 @@ nav {
   color: white;
   margin-left: 50px;
   font-size: 20px;
+  cursor: pointer;
 }
 .page-link-active {
   padding-left: 100px;
@@ -110,10 +114,6 @@ h1 {
   left: 920px;
   color: #414040;
   font-family: "Montserrat", sans-serif;
-}
-
-.profile {
-  height: 400px;
 }
 
 .selfie {
